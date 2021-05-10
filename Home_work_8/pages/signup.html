@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/ico" />
+  </head>
+  <body>
+    <header>
+      <div class="Logo">
+        <a href="../index.html">
+          <img src="../img/Logo.png" alt="" class="logo"
+        /></a>
+
+        <h1>Горнолыжная школа "Склон"</h1>
+        <h3>Let it snow, let it snow, let it snow</h3>
+      </div>
+    </header>
+    <br />
+    <nav>
+      <ul>
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../pages/index2.html">События</a></li>
+        <li><a href="../pages/index3.html">Инструкторы</a></li>
+        <li><a href="../pages/index4.html">Уроки</a></li>
+        <li><a href="../pages/index5.html">Контакты</a></li>
+      </ul>
+      <a id="signup" href="signup.html">Быстрая регистрация</a>
+    </nav>
+    <article>
+      <form action="/" method="POST">
+        <h2>Регистрация</h2>
+        <p>
+          <label for="user-name">Имя</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Имя"
+            maxlength="25"
+          />
+        </p>
+        <p>
+          <label for="user-surname">Фамилия</label>
+          <input
+            type="text"
+            name="user-surname"
+            id="user-surname"
+            placeholder="Фамилия"
+            maxlength="25"
+          />
+        </p>
+        <p>
+          <label for="user-email">Адрес электронной почты</label>
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="sklon@school.com"
+          />
+        </p>
+        <p>
+          <label for="user-pass">Придумайте пароль</label>
+
+          <input
+            type="password"
+            name="user-password"
+            id="user-pass"
+            placeholder="Пароль"
+          />
+        </p>
+        <p>
+          <label for="user-passw">Повторите пароль</label>
+          <input
+            type="password"
+            name="user-password"
+            id="user-passw"
+            placeholder="Повторите пароль"
+          />
+        </p>
+        <p>
+          <input
+            type="submit"
+            id="submit"
+            name="Signup"
+            value="Зарегистрироваться"
+          />
+        </p>
+      </form>
+    </article>
+
+    <section id="contact">
+      <h2>Контакты</h2>
+      <p>
+        <span> База: "Ала-Тоо</span>
+        <br />
+        <a href="tel:+99631211111">тел: +996 (312) 1-11-11</a> <br />
+        <a href="mailto:sklon@school.com">email: sklon@school.com</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>Все права защищены &copy; Горнолыжная школа "Склон" 2021</p>
+    </footer>
+  </body>
+</html>
